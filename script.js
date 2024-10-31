@@ -43,10 +43,12 @@ function showCity(event) {
     }
   }
 }
-function showTemperature(response) {
-  let currentTemp = Math.round(response.data.temperature.current);
-  let temperature = document.querySelector("span#temp");
-  temperature.innerHTML = `${currentTemp}°C`;
+function displayTemperature(response) {
+  let temperatureElement = document.querySelector("#current-temp");
+  let temperature = Math.round(response.data.temperature.current);
+  let cityElement = document.querySelector("#city-name");
+  cityElement.innerHTML = response.data.city;
+  temperatureElement.innerHTML = temperature;
 }
 let form = document.querySelector("#city-search-form");
 if (form) {
