@@ -46,6 +46,7 @@ function showCity(event) {
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temp");
   let temperature = Math.round(response.data.temperature.current);
+  console.log(Math.round(response.data.temperature.current));
   let cityElement = document.querySelector("#city-name");
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = temperature;
