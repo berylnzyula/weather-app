@@ -1,0 +1,61 @@
+div.container {
+  border-radius: 20px;
+  border: 1px transparent;
+  padding: 50px 25px;
+  margin: 100px 350px;
+  background: #ffffff;
+  opacity: 0.9;
+}
+body {
+  background: rgb(177, 177, 177);
+}
+input.search-button {
+  border: 1px solid #885df1;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 15px;
+  background: #885df1;
+  position: fixed;
+  right: 480px;
+  font-size: 15px;
+}
+input.city-search {
+  border: none;
+  opacity: 0.7;
+  padding: 15px 200px 15px 10px;
+  text-align: left;
+}
+div.temperature {
+  position: fixed;
+  right: 400px;
+  top: 210px;
+  font-size: 120px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+span.emoji {
+  font-size: 70px;
+  position: relative;
+  top: -5px;
+  right: -25px;
+}
+span.temperature-unit {
+  position: relative;
+  top: -45px;
+  font-size: 45px;
+  right: 35px;
+}
+h1 {
+  font-size: 52px;
+  margin-bottom: 24px;
+}
+main p {
+  font-size: 20px;
+  color: grey;
+}
+main p strong {
+  color: red;
+}
+footer {
+  padding-top: 30px;
+}
